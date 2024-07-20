@@ -148,7 +148,7 @@ header{
 
 @media (min-width: 350px){
     .dropdown {
-        width: 200px;
+        width: 250px;
     }
     .head{
         font-size: 20px;
