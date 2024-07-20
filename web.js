@@ -4,9 +4,11 @@ const solarbutton=document.getElementById('solar');
 const body=document.body;
 
 const theme= localStorage.getItem('theme');
+const issolar=localStorage.getItem('issolar')
 
 if (theme){
     body.classList.add(theme);
+    issolar && body.classList.add('solar')
 }
 
 
@@ -21,8 +23,12 @@ lightbutton.onclick = ()=>{
 };
 solarbutton.onclick = ()=>{
     if (body.classList.contains('solar')) {
-        body.classList.remove('solar')
+        body.classList.remove('solar');
+        localStorage.removeItem('issolar')
+        
     } else {
-        body.classList.add('solar')   
-    }
+        body.classList.add('solar') 
+        localStorage.setItem('issolar',true);
+       
+}
 }
