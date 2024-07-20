@@ -146,16 +146,19 @@ header{
     
 }
 
-@media (min-width: 300px){
+@media (max-width: 700px){
     .dropdown {
-        width: 70%;
+        width: 75%;
     }
     .head{
         font-size: 20px;
     }
+    .color{
+        font-size : 13px;
+    }
 
 }
-@media (min-width: 800px){
+@media (min-width: 1000px){
     .dropdown {
         width: 500px;
     }
