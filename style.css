@@ -140,4 +140,6 @@ header{
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+.main{
+    padding: 50px;
 
