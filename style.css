@@ -146,13 +146,23 @@ header{
     
 }
 
-@media (min-width: 150px){
+@media (min-width: 350px){
     .dropdown {
         width: 150px;
     }
+    .head{
+        font-size: 20px;
+    }
+
 }
 @media (min-width: 1000px){
     .dropdown {
         width: 500px;
     }
+    .head{
+        font-size: 40px;
+    }
+}
+.head{
+    /* font-size: 20px; */
 }
